@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-MODEL_PATH = "runs/detect/TRILOGIS-BOXESv7/weights/best.pt"
+MODEL_PATH = "yolov8n.pt" 
 DATA_PATH =  "DatasetRoboflow/data.yaml"
 NUM_EPOCHS = 40
 NUM_WORKERS = 3
